@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my assigmnet form registration</title>
+    <link rel = "stylesheet" href="index.css">
+</head>
+<body>
+  <div class = "container">
+    <form id = "Form">
+        
+            <h1 class = "h1form" > Register your account</h1>
+
+              <div class = "formDesign">
+                <label> full name :</label>
+                  <input type ="text" placeholder ="Enter your name" id = "myname"onkeyup= "validateName()"><span id = "errorname"></span>
+              </div>
+              
+              <div class = "formDesign">
+                <label> Username :</label>
+                  <input type ="text" placeholder ="Enter your username" id = "myusername" onkeyup= "validateUsername()"><span  id = "errorusername"></span>
+              </div>
+
+              <div class = "formDesign">
+                <label>Your email:</label>
+                   <input type ="email" placeholder ="Enter your email" id = "myemail" onkeyup= "validateEmail()"><span  id = "erroremail"></span>
+                  </div>
+              
+
+              <div  class = "formDesign">
+                <label> Passward:</label>
+                   <input type ="password" placeholder ="Enter your password" id = "mypass" onkeyup="validatePassword()"><span  id = "errorpass"></span>
+              </div>
+
+              <div class = "formDesign">
+                <label>Passward:</label>
+              <input type ="password" placeholder ="Enter your password" id = "mycpass" onkeyup="validatecPassword()"><span  id = "errorcpass"></span>
+              </div>
+              <div  class = "formDesign">
+                <label> Phone no:</label>
+                   <input type ="text" placeholder ="Enter your phone number" id = "myphone" onkeyup="validatePhone()"><span  id = "errorphone"></span>
+              </div>
+
+              <div class = "formDesign">
+                <label>Press on :</label>
+                  <input type = "submit"onclick="return validateSubmit()"Submit> <span id ="errorsubmit"></span>
+              </div>
+
+
+
+
+
+</form> 
+<script src="index.js"></script>
+</body>
+</html>
