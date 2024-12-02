@@ -1,5 +1,5 @@
 body{
-    background-color: brown;
+    background-color:whitesmoke;
     display:flex;
     align-items: center;
     padding: 40px;
@@ -12,16 +12,19 @@ body{
 
 .container{
     width: 300px;
-    height: 550px;
+    height: 600px;
     background-color:azure;
     padding-top: 30px;
     border: 50px solid;
-    border-top: 80px solid;
-    border-bottom: 80px solid;
+    border-top: 50px solid;
+    border-bottom: 50px solid;
     border-color: blue;
     display:flex;
     justify-content: space-between;
     align-items: flex-start;
+    
+    
+
     
     
 }
@@ -36,21 +39,20 @@ body{
     padding-left: 19px;
     color: blue;
 }
-/*formDesign.btn{
-    height: 50px;
-    border: 3 rem solid;
-    border-radius: 18px ;
-    border-color: blue;
-    width: 180px;
-    font-size: 25px;
 
-}*/
 .formDesign input{
     height: 50px;
     border: 3 rem solid;
     border-color: blue;
     width: 180px;
+    margin-bottom: 4px;
 
+}
+ .formDesign  input label{
+    display: block;
+    font-weight: 400px;
+    align-items: normal;
+    color:#555;
 }
 #errorname {
     color: brown;
