@@ -1,8 +1,8 @@
-const labels =document.querySelectorAll('label');
-labels.forEach(label => {
+const mylabels = document.querySelectorAll('label');
+mylabels.forEach(label => {
     label.addEventListener('click', function(){
-        const input = label.nextElementSibling;
-        input.focus();
+        const inputs = label.nextElementSibling;
+        inputs.focus();
     });
 });
 
